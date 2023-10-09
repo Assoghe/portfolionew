@@ -1,10 +1,11 @@
 import React from 'react'
+import HeroSection from './HeroSection'
 
 function Portfolio() {
   return (
-    <div>
-      Portfolio
-    </div>
+    <>
+      <HeroSection/>
+    </>
   )
 }
 

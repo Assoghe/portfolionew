@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/NavBar'
-import Portfolio from './pages/Portfolio'
+import Portfolio from './pages/Portfolio/Portfolio'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
