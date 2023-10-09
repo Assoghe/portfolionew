@@ -54,6 +54,9 @@ font-family: 'Spartan';
   font-size: 1.4em;
 }
 
+.navigation-icon {
+  margin-right: 1em;
+}
 
 .navigation-right a:hover {
   color: #8183FF;
