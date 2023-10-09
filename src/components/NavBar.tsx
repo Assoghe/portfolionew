@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <NavigationStyled>
        <div className='navigation-left'>    
-         <p>Soraya Gherras</p>
+         <h4>Soraya Gherras</h4>
       </div>
 
     <div className="navigation-right">
@@ -26,18 +26,35 @@ export default function NavBar() {
 }
 
 const NavigationStyled = styled.div`
-width: 100%;
-padding: 1.5em 0;
+max-width: 100%;
+height:auto;
+padding: 2em;
+align-items: center;
 display: flex;
-justify-content: space-around;
-font-size: 1em;
+justify-content: space-between;
+font-size: 1.1em;
 text-decoration: none !important;
 font-family: 'Spartan';
 
-
+.navigation-left {
+  font-size: 1.2em;
+}
 
 .navigation-right {
   display: flex;
   text-decoration: none;
+  align-items: center;
 }
+
+.navigation-right a, svg {
+  margin-right: 1.5em;
+}
+
+.navigation-right svg {
+  font-size: 1.4em;
+}
+
+
 `
+
+
