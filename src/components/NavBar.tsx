@@ -15,9 +15,9 @@ export default function NavBar() {
      <Link to="/about"> A propos  </Link>
      <Link to="/contact"> Contactez-moi ! </Link>
      <div className="navigation-icon">
-     <BsLinkedin/>
-    <BsBehance/>
-    <BsGithub/>
+     <Link to="https://www.linkedin.com/in/soraya-gherras/" target='_blank'> <BsLinkedin/></Link>
+     <Link to="https://www.behance.net/sorayagherras3?tracking_source=search_users%7Csoraya%20gherras" target='_blank'> <BsBehance/></Link>
+     <Link to="https://github.com/Assoghe" target='_blank'> <BsGithub/> </Link>
      </div>
     </div>
   </NavigationStyled>
