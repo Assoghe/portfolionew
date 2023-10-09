@@ -1,12 +1,12 @@
-import React from 'react'
 import { styled } from 'styled-components'
+import imagetest  from '../../assets/images/mangasfan.png';
 
 function PortfolioSection() {
   return (
     <PortfolioSectionStyle>
         <div className="portfoliocard">
             <div className="bloc-image">
-                <img src=''/>
+                <img src={imagetest}/>
             </div>
             
             <div className="bloc-text">
@@ -28,16 +28,15 @@ const PortfolioSectionStyle = styled.div`
     padding: 0 10%;
     border-radius: 20px;
 
-    .bloc-image {
-        height: 535px;
-        background-color: blue;
-
+    .portfoliocard {
+        background-color: blue !important;
+        width: 100%;
     }
 
     .bloc-text {
         padding: 54px;
-        background-color: red;
     }
+
 
     .bloc-text h5 {
         font-size: 12px;
