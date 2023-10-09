@@ -29,9 +29,10 @@ const NavigationStyled = styled.div`
 width: 100%;
 padding: 1.5em 0;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 font-size: 1em;
 text-decoration: none !important;
+font-family: 'Spartan';
 
 
 

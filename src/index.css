@@ -1,0 +1,11 @@
+
+/*Font*/
+@font-face {
+  font-family: 'Spartan';
+  src: url('../src/assets/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src :url('../src/assets/Mulish-/Mulish-Italic-VariableFont_wght.ttf') format('truetype');
+}
