@@ -55,6 +55,19 @@ font-family: 'Spartan';
 }
 
 
+.navigation-right a:hover {
+  color: #8183FF;
+  transition: all 0.2s ease-out;
+}
+
+.navigation-right svg:hover {
+  cursor: pointer;
+  color: #8183FF;
+  transition: all 0.2s ease-out;
+  
+}
+
+
 `
 
 
