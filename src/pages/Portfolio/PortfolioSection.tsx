@@ -1,21 +1,31 @@
 import { styled } from 'styled-components'
-import imagetest  from '../../assets/images/mangasfan.png';
+import data from '../../data/portfolio.json'
 
 function PortfolioSection() {
+
   return (
     <PortfolioSectionStyle>
-        <div className="portfoliocard">
+
+    {
+        data.map((portfolio, i) => (
+            <div className="portfoliocard" style={{backgroundColor: portfolio.background}}>
             <div className="bloc-image">
-                <img src={imagetest}/>
+                <img src={portfolio.image} alt={portfolio.name}/>
             </div>
             
             <div className="bloc-text">
-                <h5>Application mobile - UX - UI</h5>
-                <h3>Nom de la carte</h3>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi totam necessitatibus eveniet omnis, deleniti aliquid laboriosam, quisquam, facere at quam earum in neque iusto officia incidunt natus consequatur libero!</p>
+                <h5>{portfolio.type}</h5>
+                <h3>{portfolio.name}</h3>
+                <p> {portfolio.description}</p>
                 <a href="">Voir étude de cas</a>
             </div>
         </div>
+        ))
+    }
+
+
+
+       
     </PortfolioSectionStyle>
   )
 }
@@ -25,16 +35,32 @@ const PortfolioSectionStyle = styled.div`
     grid-template-columns : 1fr 1fr;
     height: auto;
     gap: 54px;
-    padding: 0 10%;
-    border-radius: 20px;
+    padding: 0 8%;
 
-    .portfoliocard {
-        background-color: blue !important;
+    .bloc-image {
         width: 100%;
     }
 
+    .bloc-image img {
+        width: 100%;
+    }
+
+
+    .portfoliocard {
+        background-color:#EE64F0;
+        border-radius: 1.5em;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .bloc-image {
+        width: 100%;
+        height: auto;
+    }
+
     .bloc-text {
-        padding: 54px;
+        padding: 36px;
+        box-shadow: 0px -12px 12px 0px rgba(0, 0, 0, 0.04);
     }
 
 
@@ -48,13 +74,14 @@ const PortfolioSectionStyle = styled.div`
         font-size:24px;
         margin-bottom: 20px;
         font-family: 'Spartan';
+        font-weight: 600;
     }
 
     .bloc-text p {
         font-size: 15px;
         line-height: 1.5;
         font-family: 'Mulish';
-        margin-bottom: 54px;
+        margin-bottom: 36px;
     }
 
     .bloc-text a {
