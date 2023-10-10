@@ -22,7 +22,7 @@ const HeroStyled = styled.div`
     font-family: 'Spartan';
     align-items: center;
     display: flex;
-    padding: 0 10%;
+    padding: 0 8%;
     justify-content: space-between;
 
 
