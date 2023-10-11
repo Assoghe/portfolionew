@@ -36,6 +36,7 @@ const PortfolioSectionStyle = styled.div`
     height: auto;
     gap: 54px;
     padding: 0 8%;
+    margin-bottom: 15em;
 
     .bloc-image {
         width: 100%;
