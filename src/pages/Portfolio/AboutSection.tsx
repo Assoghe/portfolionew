@@ -42,6 +42,14 @@ const AboutSectionStyled = styled.div`
         font-family: 'Mulish';
         font-weight: 600;
     }
-`
+
+    @media (max-width: 50em) {
+      margin: 0 3%;
+
+
+
+  }
+
+    `
 
 export default AboutSection

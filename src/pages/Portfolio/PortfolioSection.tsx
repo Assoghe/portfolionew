@@ -90,7 +90,12 @@ const PortfolioSectionStyle = styled.div`
         font-size: 18px;
     }
 
-    
+    @media (max-width: 50em) {
+        grid-template-columns : 1fr;
+        padding: 0 3%;
+
+
+    }
 
 
 
