@@ -36,6 +36,7 @@ const PortfolioSectionStyle = styled.div`
     height: auto;
     gap: 54px;
     padding: 0 8%;
+    margin-bottom: 15em;
 
     .bloc-image {
         width: 100%;
@@ -63,11 +64,11 @@ const PortfolioSectionStyle = styled.div`
         box-shadow: 0px -12px 12px 0px rgba(0, 0, 0, 0.04);
     }
 
-
     .bloc-text h5 {
         font-size: 12px;
         font-family: 'Mulish';
         margin-bottom: 20px;
+        margin-top: 0px;
     }
 
     .bloc-text h3{
@@ -87,6 +88,13 @@ const PortfolioSectionStyle = styled.div`
     .bloc-text a {
         font-family: 'Spartan';
         font-size: 18px;
+    }
+
+    @media (max-width: 50em) {
+        grid-template-columns : 1fr;
+        padding: 0 3%;
+
+
     }
 
 

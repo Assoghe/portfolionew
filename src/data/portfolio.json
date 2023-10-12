@@ -3,7 +3,7 @@
         "name": "Mangas'Fan",
         "type": "Ux - Ui - Site web",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image": "../src/assets/images/mangasfan.png",
+        "image": "../src/assets/images/mangasfanui.png",
         "background": "#A940DB"
     },
 
@@ -12,7 +12,7 @@
         "name": "Tattoomorrow",
         "type": "Ux - Ui - Application mobile",
         "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation",
-        "image": "../src/assets/images/tattoomorrow.png",
+        "image": "../src/assets/images/tattoomorrowui.png",
         "background": "#5078C4"
     },
 
@@ -20,7 +20,7 @@
         "name": "Maki Sushi",
         "type": "Ux - Ui - Site web - Application mobile",
         "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "image": "../src/assets/images/maki.png",
+        "image": "../src/assets/images/makisushiui.png",
         "background":"#DB409D"
 
     },
@@ -29,7 +29,7 @@
         "name": "Good Family",
         "type": "Ux - Ui -  - Application mobile",
         "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image": "../src/assets/images/goodfamily.png",
+        "image": "../src/assets/images/goodfamilyui.png",
         "background":"#DB4053"
     }    
 ]

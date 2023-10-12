@@ -28,7 +28,7 @@ export default function NavBar() {
 const NavigationStyled = styled.div`
 max-width: 100%;
 height:auto;
-padding: 2em;
+padding: 0 8%;
 align-items: center;
 display: flex;
 justify-content: space-between;

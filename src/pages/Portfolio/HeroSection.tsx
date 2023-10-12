@@ -55,6 +55,23 @@ const HeroStyled = styled.div`
     .bloc-paragraph a {
       color: #3C67FD;
     }
+
+    @media (max-width: 50em) {
+      display: block;
+      padding: 0 3%;
+      height: 100vh;
+      margin-top: 50%;
+
+
+      .bloc-title {
+        width: 100%;
+    }
+
+    .bloc-paragraph {
+      width: 100%;
+    }
+
+  }
 `
 
 export default HeroSection;
