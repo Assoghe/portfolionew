@@ -30,6 +30,7 @@ const AboutSectionStyled = styled.div`
     p {
         font-family: 'Mulish';
         line-height: 1.5;
+        margin-bottom: 2em;
     }
 
     a span {
@@ -38,6 +39,8 @@ const AboutSectionStyled = styled.div`
         color: #4050DB;
         border-radius: 0.5em;
         margin-top: 2em;
+        font-family: 'Mulish';
+        font-weight: 600;
     }
 `
 
