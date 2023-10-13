@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import PortfolioSection from './PortfolioSection'
 import AboutSection from './AboutSection'
+import ContactSection from './ContactSection'
 
 function Portfolio() {
   return (
@@ -9,6 +10,7 @@ function Portfolio() {
       <HeroSection/>
       <PortfolioSection/>
       <AboutSection/>
+      <ContactSection/>
     </>
   )
 }
