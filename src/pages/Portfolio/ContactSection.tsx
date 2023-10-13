@@ -47,6 +47,8 @@ const ContactSectionStyle = styled.div`
       margin-right: 0.5em;
     }
 
+    
+
 
 `
 
