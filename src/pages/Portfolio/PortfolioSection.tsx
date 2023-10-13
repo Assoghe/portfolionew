@@ -7,7 +7,7 @@ function PortfolioSection() {
     <PortfolioSectionStyle>
 
     {
-        data.map((portfolio, i) => (
+        data.map((portfolio) => (
             <div className="portfoliocard" style={{backgroundColor: portfolio.background}}>
             <div className="bloc-image">
                 <img src={portfolio.image} alt={portfolio.name}/>
