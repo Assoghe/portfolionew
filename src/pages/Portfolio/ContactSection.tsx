@@ -47,6 +47,12 @@ const ContactSectionStyle = styled.div`
       margin-right: 0.5em;
     }
 
+    @media (max-width: 50em) {
+      margin: 0 3%;
+      display: block;
+
+
+  }
 
 `
 
